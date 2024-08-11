@@ -3,10 +3,11 @@ import pyttsx3
 import speech_recognition as sr
 import webbrowser
 
-# Set up OpenAI API key
-# openai.api_key = "ADD OPENAI API KEY"
 
-# Initialize text-to-speech engine
+openai.api_key = "ADD OPENAI API KEY" 
+
+# It is not allowed to add API to GITHUB, so please contact me from my resume to get the API key. Thanks. :)
+
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)
