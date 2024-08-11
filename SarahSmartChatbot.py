@@ -6,7 +6,7 @@ import webbrowser
 
 openai.api_key = "ADD OPENAI API KEY" 
 
-# It is not allowed to add API to GITHUB, so please contact me from my resume to get the API key. Thanks. :)
+# They are restricting me to add my OPENAI API to GITHUB, so please contact me from my Resume to get the API key. Thanks. :)
 
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
